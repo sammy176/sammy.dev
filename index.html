@@ -15,11 +15,11 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="animation.css" />
   </head>
   <body>
     <header class="header">
-      <a href="#main" class="logo">SAMMY.DEV</a>
+      <a href="#main" class="logo">SAMMY.<span>DEV</span></a>
       <nav>
         <ul class="nav">
           <li><a href="#main" class="nav-list">Home</a></li>
@@ -37,11 +37,19 @@
       <i class="bx bx-menu" id="menu-icon"></i>
     </header>
 
+    <button id="backToTop" aria-label="Back to top">
+      <i class="bx bx-up-arrow-alt"></i>
+    </button>
+
     <section id="main">
-      <div class="home">
+      <div class="home scroll-animate fade-up delay-8">
         <h1>Hello! I'm</h1>
         <h2>Nicholson Samuel</h2>
-        <p>Frontend Developer, Designer, Coder and Tech Enthusiast</p>
+        <p>
+          I’m a Frontend Developer who builds fast, responsive, and
+          user-friendly websites that help businesses grow and stand out online.
+        </p>
+
         <div class="btn-sci">
           <a href="#" class="btn"
             >Download Resume
@@ -49,7 +57,7 @@
           </a>
         </div>
       </div>
-      <div class="home-img">
+      <div class="home-img scroll-animate fade-right delay-11">
         <div class="img-container">
           <div class="img-item">
             <img src="" alt="image" />
@@ -59,11 +67,11 @@
     </section>
 
     <section id="services">
-      <div class="container">
+      <div class="container scroll-animate fade-left">
         <span class="span"> My Services </span>
-        <h2>Service Provided For My Client</h2>
+        <h2>How I Can Help You</h2>
       </div>
-      <div class="service-wrapper">
+      <div class="service-wrapper scroll-animate fade-in delay-6">
         <div class="dis-container">
           <div class="display-grid">
             <div class="service-box-1">
@@ -72,10 +80,10 @@
               </div>
               <h4>Frontend Development</h4>
               <ul class="list-item">
-                <li>E-commerce website</li>
-                <li>Company website</li>
-                <li>Landing Page</li>
-                <li>Management systems</li>
+                <li>Responsive websites for all devices</li>
+                <li>Modern UI with clean code</li>
+                <li>Fast loading and SEO-friendly</li>
+                <li>Business & portfolio websites</li>
               </ul>
             </div>
             <div class="service-box-2">
@@ -84,10 +92,10 @@
               </div>
               <h4>UI/UX Design</h4>
               <ul class="list-item">
-                <li>E-commerce website</li>
-                <li>Company website</li>
-                <li>Landing Page</li>
-                <li>Management systems</li>
+                <li>User-centered design approach</li>
+                <li>Clean, modern interfaces</li>
+                <li>Improved user engagement</li>
+                <li>Figma to live website</li>
               </ul>
             </div>
             <div class="service-box-3">
@@ -96,10 +104,10 @@
               </div>
               <h4>Graphics Design</h4>
               <ul class="list-item">
-                <li>E-commerce website</li>
-                <li>Company website</li>
-                <li>Landing Page</li>
-                <li>Management systems</li>
+                <li>Brand visuals and layouts</li>
+                <li>Social media graphics</li>
+                <li>Web-ready assets</li>
+                <li>Consistent brand identity</li>
               </ul>
             </div>
           </div>
@@ -111,11 +119,11 @@
       <div class="achieve-cont">
         <div class="achieve-1">
           <h2 class="con">10+</h2>
-          <span class="text">joyful clients</span>
+          <span class="text">Satisfied Clients</span>
         </div>
         <div class="achieve-1">
           <h2 class="con">15+</h2>
-          <span class="text">projects completed</span>
+          <span class="text">Projects Delivered</span>
         </div>
         <div class="achieve-1">
           <h2 class="con">1+</h2>
@@ -126,10 +134,13 @@
 
     <section id="tools">
       <div class="tool-sec">
-        <div class="text-tool">
+        <div class="text-tool scroll-animate fade-down">
           <h1 class="tool-text">My Coding Languages and Tools</h1>
+          <p class="tool-intro">
+            Technologies I use to build modern, scalable web applications.
+          </p>
         </div>
-        <div class="tool">
+        <div class="tool scroll-animate fade-up delay-5">
           <div class="p-tools">
             <img src="Screenshot 2025-04-20 134402.png" alt="#" />
             <h2>Html</h2>
@@ -159,42 +170,76 @@
     </section>
 
     <section id="projects">
-      <div class="p-section">
+      <div class="p-section scroll-animate fade-right">
         <p class="p-text">Projects</p>
         <h2>My Projects</h2>
       </div>
-      <div class="project-display">
+      <div class="project-display scroll-animate zoom-in delay-4">
         <div class="display-items">
           <div class="img-p">
-            <img src="facebook login.png" alt="#" />
+            <img src="facebook login.png" alt="Facebook login clone" />
           </div>
-          <h2>facebook login</h2>
-          <p>Built using html and css</p>
+
+          <div class="project-content">
+            <h3>Facebook Login Clone</h3>
+            <p>
+              Responsive login interface built with clean HTML and CSS,
+              optimized for mobile and desktop.
+            </p>
+
+            <div class="project-links">
+              <a href="#" target="_blank">Live Demo</a>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
         </div>
+
         <div class="display-items">
           <div class="img-p">
             <img src="responsive login form.png" alt="#" />
           </div>
-          <h2>a responsive login form</h2>
-          <p>Built using html,css,and js</p>
+
+          <div class="project-content">
+            <h3>Facebook Login Clone</h3>
+            <p>
+              Responsive login interface built with clean HTML and CSS,
+              optimized for mobile and desktop.
+            </p>
+
+            <div class="project-links">
+              <a href="#" target="_blank">Live Demo</a>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
         </div>
         <div class="display-items">
           <div class="img-p">
             <img src="artist finder.png" alt="#" />
           </div>
-          <h2>a music site</h2>
-          <p>Built using html and css</p>
+
+          <div class="project-content">
+            <h3>Facebook Login Clone</h3>
+            <p>
+              Responsive login interface built with clean HTML and CSS,
+              optimized for mobile and desktop.
+            </p>
+
+            <div class="project-links">
+              <a href="#" target="_blank">Live Demo</a>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="contact">
       <div class="contact-container">
-        <div class="contact-text">
+        <div class="contact-text scroll-animate fade-left">
           <p>Contact Me</p>
-          <h2>If you need any website project. Get in touch</h2>
+          <h2>Have a project in mind? Let’s build something great together.</h2>
         </div>
-        <form>
+        <form class="scroll-animate fade-in dalay-6">
           <div class="contact-inputs">
             <input type="text" placeholder="name" />
             <input type="email" placeholder="email" />
@@ -217,14 +262,38 @@
     <br />
 
     <footer class="footer">
-      <div class="footer-content">
-        <div class="footer-const">
-          <h4 id="no">+2347052622789</h4>
-          <h4>nicholsonsamuel89@gmail.com</h4>
+      <div class="footer-container">
+        <div class="footer-brand">
+          <h2>SAMMY<span>.DEV</span></h2>
+          <p>
+            Frontend Developer focused on building clean, responsive, and
+            user-friendly web experiences.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#main">Home</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>📞 +2347052622789</p>
+          <p>✉️ nicholsonsamuel89@gmail.com</p>
+
+          <div class="footer-socials">
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+          </div>
         </div>
       </div>
-      <div class="footer-text">
-        <p>Developed by <span>Nicholson Samuel</span> &copy; 2025</p>
+
+      <div class="footer-bottom">
+        <p>© 2025 Nicholson Samuel. All rights reserved.</p>
       </div>
     </footer>
 
