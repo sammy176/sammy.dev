@@ -1,0 +1,307 @@
+/* MEDIA QUERIES */
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+
+  .contact-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 920px) {
+  .img-p img {
+    height: 37rem;
+    width: 27rem;
+    margin: 2rem 0.5rem 2.5rem 0;
+    border-radius: 1rem;
+  }
+
+  .contact-inputs {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 865px) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media (max-width: 769px) {
+  .home h2,
+  h1 {
+    text-align: center;
+  }
+
+  .btn-h {
+    display: none;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .nav {
+    transform: translateY(-20px);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease;
+    position: absolute;
+    background-color: #202630;
+    top: 100%;
+    left: 0;
+    padding: 1rem 0;
+    width: 100%;
+    border-top: 0.3rem solid #222934;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: none;
+  }
+
+  .nav.active {
+    display: block;
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav .nav-list {
+    display: block;
+    margin: 4rem 0;
+  }
+
+  .nav a {
+    padding: 2rem 0;
+    display: inline-block;
+  }
+
+  button,
+  .btn {
+    min-height: 48px;
+  }
+
+  .home p,
+  .btn-sci {
+    width: 100%;
+    text-align: center;
+  }
+
+  #main {
+    height: auto;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .project-display,
+  .display-grid {
+    grid-template-columns: 50% 50%;
+  }
+
+  #menu-icon {
+    display: grid;
+  }
+
+  .service-box-1 .list-item li {
+    font-size: 1.4rem;
+  }
+  .service-box-2 .list-item li {
+    font-size: 1.4rem;
+  }
+  .service-box-3 .list-item li {
+    font-size: 1.4rem;
+  }
+
+  .home p {
+    font-size: 1.4rem;
+  }
+
+  .home-img .img-container {
+    padding: 16rem;
+  }
+
+  #main {
+    padding: 6rem 2rem;
+  }
+
+  .home h1 {
+    font-size: 4.5rem;
+  }
+
+  .home h2 {
+    font-size: 6rem;
+  }
+
+  .home-img {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 567px) {
+  html {
+    font-size: 37.5%;
+  }
+
+  #main {
+    height: auto;
+  }
+
+  .service-box-1 h4 {
+    font-size: 3.5rem;
+  }
+  .service-box-2 h4 {
+    font-size: 3.5rem;
+  }
+  .service-box-3 h4 {
+    font-size: 3.5rem;
+  }
+
+  .service-box-1 .list-item li {
+    font-size: 2.2rem;
+  }
+  .service-box-2 .list-item li {
+    font-size: 2.2rem;
+  }
+  .service-box-3 .list-item li {
+    font-size: 2.2rem;
+  }
+
+  .home p {
+    font-size: 2.2rem;
+  }
+
+  .home-img .img-container {
+    padding: 18rem;
+  }
+
+  .achieve-cont {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .achieve-1 {
+    margin-top: 1.7rem;
+    margin-bottom: 3rem;
+  }
+
+  .achieve-1 .con {
+    text-align: center;
+    font-size: 7.8rem;
+  }
+
+  .achieve-1 .text {
+    font-size: 2.5rem;
+  }
+
+  .display-items p {
+    font-size: 2.5rem;
+  }
+
+  .display-items h2 {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 486px) {
+  .display-items p {
+    font-size: 2.8rem;
+  }
+
+  .display-items h2 {
+    font-size: 3.5rem;
+  }
+
+  .display-grid,
+  .project-display {
+    grid-template-columns: 1fr;
+  }
+
+  .tool {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .home h1 {
+    font-size: 6rem;
+  }
+  .home h2 {
+    font-size: 9rem;
+  }
+
+  #contact {
+    height: 120rem;
+  }
+
+  .contact-inputs input {
+    font-size: 2.2rem;
+  }
+  #message {
+    font-size: 2.2rem;
+  }
+
+  .btn-but button {
+    font-size: 2.2rem;
+  }
+
+  .footer-const h4 {
+    font-size: 2.2rem;
+    margin-left: 3rem;
+  }
+
+  .footer-const {
+    flex-direction: column;
+    gap: 4rem;
+    align-items: flex-start;
+  }
+
+  .footer-text p {
+    margin-top: 3.5rem;
+    font-size: 2.3rem;
+  }
+
+  .contact-container {
+    margin: 0;
+    width: 100%;
+  }
+
+   .tool {
+    gap: 2rem;
+  }
+
+  .p-tools {
+    min-width: unset;
+    height: auto;
+  }
+
+  .contact-container {
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .contact-inputs input,
+  #message {
+    padding: 2.5rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-height: 420px) {
+  #main {
+    height: 100rem;
+  }
+}
+
+@media (max-width: 390px) {
+  #contact {
+    padding-bottom: 32rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .tool {
+    grid-template-columns: 1fr;
+  }
+}
